@@ -8,6 +8,13 @@
         body {
             text-align: center;
         }
+
+        #teste {
+            color: white;
+            font-size: 30px;
+        }
+
+        
     </style>
 </head>
 <body>
@@ -15,12 +22,22 @@
 
     <p id="texto"></p>
 
+    
+    <button onclick="eventoclicar()">Clique em mim</button>
+
     <p>
         <script>
             document.write('Oi, escrito com document.write')
         </script>
     </p>
 
+
+    <div id="teste" onmouseover="viraAzul()" onmouseout="viraPreto()" style="margin: auto auto;width: 80%; height: 100px; background: violet;">oi</div>
+
+
+    <div id="testando" onmousemove="adicionaTexto()" style="margin: 40px; width: 600px; height: 400px; background-color: aquamarine;"></div>
+
     <script src="index.js"></script>
+
 </body>
 </html>

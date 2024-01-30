@@ -18,9 +18,61 @@ var valor2 = 2
 alert(total) */
 
 
-var idade, eleitor
+/* var idade, eleitor
 
 var idade = 16
 eleitor = (idade >16) ? "Não, vota" : "Sim, vota!"
 
-alert('A resposta é: ' + eleitor + ' A idade dele é: ' + idade)
+alert('A resposta é: ' + eleitor + ' A idade dele é: ' + idade) */
+
+
+/*function soma (valor1, valor2) {
+     return valor1 + valor2
+}
+
+document.getElementById("texto").innerHTML = soma(10, 20); */
+
+function alertaOi() {
+    
+}
+
+const carro = { marca:"ford", modelo:"ka", ano:2015, placa:"ABC-1234",
+
+};
+
+
+
+
+
+function eventoclicar() {
+    alert('Parabéns, você acionou o evento de click')
+}
+
+
+function viraAzul() {
+  var div = document.getElementById("teste");
+  div.style.backgroundColor = "blue";
+}
+
+function viraPreto() {
+    var div = document.getElementById("teste")
+    div.style.backgroundColor = "black";
+}
+
+function adicionaTexto() {
+    let p = document.getElementById("testando")
+    p.append('Adicionando texto');
+
+}
+
+var item0 = "leite";
+var item1 = "arroz";
+var item2 = "nescau";
+var item3 = "açúcar";
+var item4 = "queijo";
+
+
+const lista = ["leite", "arroz", "nescau", "açúcar", "queijo"];
+let x = lista[3];
+alert(x)
+
